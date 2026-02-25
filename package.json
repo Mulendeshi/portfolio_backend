@@ -1,0 +1,29 @@
+{
+  "name": "portfolio_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supabase start",  
+    "serve": "supabase functions serve --no-verify-jwt", 
+    "deploy": "supabase functions deploy",  
+    "logs": "supabase functions logs",
+    "stop": "supabase stop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.93.0",
+    "dotenv": "^17.2.3",
+    "supabase": "^2.72.8",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2"
+  }
+}
